@@ -34,3 +34,5 @@ async function Dbcall(){
 app.listen(process.env.PORT || 3000,()=>{
     console.log('Its running')
 })
+
+module.exports = app
